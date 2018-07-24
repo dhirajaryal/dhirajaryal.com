@@ -111,13 +111,6 @@
       <h1 class="project-name">{{ header_title }}</h1>
       <h2 class="project-tagline">{{ page-tagline }}</h2>
 
-      {% if page.repository.is_project_page %}
-          <a href="{{ page.repository.repository_url }}" class="btn" target="_blank">Source Code</a>
-        {% if page.repository.show_downloads %}
-          <a href="{{ page.repository.zip_url }}" class="btn" target="_blank">Download .zip</a>
-          <a href="{{ page.repository.tar_url }}" class="btn" target="_blank">Download .tar.gz</a>
-        {% endif %}
-      {% endif %}
       <!-- Post tagline -->
       {% if page.layout == 'post' %}
         <!-- <h2 class="project-date">

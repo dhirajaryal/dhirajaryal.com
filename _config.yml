@@ -8,12 +8,10 @@
 # Site settings
 title: Dhiraj Aryal
 email: dhirajaryal2000@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
+description: Nepal,Australia
   Google search results) and in your feed.xml site description.
 baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
-url: "http://dhirajaryal.com" # change this to the base hostname & protocol for your site
+url: "http://www.dhirajaryal.com" # change this to the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -36,6 +34,11 @@ jekyll-theme-simple-blog:
 theme: jekyll-theme-cayman
 
 show_post_image_posts_list: false
+
+page.repository.is_project_page: false
+
+page:
+    repository.is_project_page
 
 header:
   image: /assets/patterns/symphony.png
